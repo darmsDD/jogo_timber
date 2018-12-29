@@ -1,8 +1,13 @@
 # jogo_timber
 
-#Instructions
+## Instructions
+
 Compiling
+
   g++ -c Timber.cpp
+ 
   g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+
 Executing
-  ./sfml-app
+ 
+ ./sfml-app
