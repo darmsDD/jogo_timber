@@ -87,7 +87,6 @@ int main()
         // Measure time
         Time dt = clock.restart();
 
-<<<<<<< HEAD
         //Setup the bee
         if(!beeActive)
         {
@@ -209,8 +208,6 @@ int main()
             }
         }
 
-=======
->>>>>>> temporario
         /*
         Draw the scene
         */    
