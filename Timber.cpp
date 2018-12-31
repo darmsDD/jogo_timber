@@ -67,6 +67,9 @@ int main()
     float cloud2Speed = 0.0f;
     float cloud3Speed = 0.0f;
 
+    // Variables to control time itself
+    Clock clock;
+
     while(window.isOpen())
     {
         /*
@@ -80,6 +83,9 @@ int main()
         /*
         Update the scene
         */
+
+        // Measure time
+        Time dt = clock.restart();
 
         /*
         Draw the scene
