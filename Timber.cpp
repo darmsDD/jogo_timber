@@ -5,11 +5,16 @@ using namespace sf;
 int main()
 {
     //Create a video object;
-    VideoMode vm(1366,768);
+    VideoMode vm(1280,720);
 
     //Create and open a windown for the game
-    RenderWindow window(vm,"Timber!!!",Style::Fullscreen);
-   
+    
+    //Low res code
+    RenderWindow window(vm,"Timber!!!");
+    View view(sf::FloatRect(0,0,1280,720));
+    window.setView(view);
+    // end of low red code
+
     //Create a texture to hold a graphic on the GPU
     Texture textureBackground;
 
@@ -24,6 +29,8 @@ int main()
 
     //set the spriteBackground to cover the screen
         spriteBackground.setPosition(0,0);
+
+   
 
 
     while(window.isOpen())
