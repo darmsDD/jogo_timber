@@ -6,7 +6,7 @@ Compiling
 
   g++ -c Timber.cpp
  
-  g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+  g++ Timber.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
 
 Executing
  
